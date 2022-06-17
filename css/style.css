@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+body{
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+/*  navbar */
+.navbar{
+    max-width: auto;
+    height: auto;
+}
+a:link, a:visited{
+    padding: 10px 10px;
+    color: #36b6cd;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+a:hover{
+    background-color: #36b6cd;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #313e53;
+}
+
+li{
+    float: left;
+    display: block;
+    text-align: center;
+}
+.lang{
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.logo{
+    float: left;
+    padding-left: 110px;
+    padding-top: 20px;
+    padding-bottom: auto;
+}
+.menu{
+    padding-top: 70px;
+    padding-left: 190px;
+    padding-bottom: auto;
+}
+
+.menu-links{
+    margin-right: 30px;
+}
+.numbers{
+    padding-top: 54px;
+    padding-left: 80px;
+    padding-bottom: auto;
+    color: white;
+}
+
+/* banner */
+@keyframes banner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+.img-banner{
+    width: 1920px;
+    height: 759px;
+    background-image:url("../img/banner.png");
+    position: relative;
+}
+.img-banner::after{
+    animation: banner 0.5s ease 0s 1 normal forwards;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-image: url("../img/banner-overlay.png");
+    background-size: 100% 100%;
+}
+@keyframes banner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

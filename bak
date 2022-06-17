@@ -1,0 +1,10 @@
+.navlink{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+<div class="navlink">
+                    <a href="" class="link">UA</a>
+                    <a href="" class="link">EN</a>
+                </div>
+                <img href="#" src="img/logo.png" class="logo" alt="">
