@@ -149,3 +149,64 @@ li{
     font-size: 30px;
     color: #384556;
 }
+/*poslugy*/
+.hr-vertical{
+    border: none;
+    border-left: 1px hsla(200, 10%, 50%, 100);
+    color: #36b6cd;
+    height: auto;
+    width: 1px;
+}
+.poslugy{
+    padding-top: 50px;
+    padding-left: 210px;
+    padding-right: 250px;
+}
+.poslugy-head{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 43px;
+    width: 500px;
+    color: #384556;
+    float: left;
+}
+.poslugy-brand{
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 43px;
+    width: 500px;
+    float: left;
+    color: #36b6cd;
+    margin-bottom: 35px;
+}
+.poslugy-text{
+    position: relative;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(2, 300px);
+}
+.poslugy-first{
+}
+.poslugy-second{
+}
+.poslugy-third{
+}
+.poslugy-fourth{
+    margin-top: 15px;
+}
+
+.poslugy-link:link, .poslugy-link:visited{
+    color:#000;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 900;
+}
+.poslugy-link:hover{
+    color: #36b6cd;
+    transition: 0.2s;
+}
