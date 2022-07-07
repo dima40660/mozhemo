@@ -8,6 +8,7 @@ body{
 /*  navbar */
 .bg-custom{
     background-color: #313e53;
+    position: relative;
 }
 .lang-item{
     margin-left: 2rem;
@@ -29,13 +30,12 @@ body{
     border-radius: 25px;
     font-weight: bold;
 }
-.navbar-brand{
-}
+
 .menu{
     margin-top: 3rem;
     margin-bottom: 0.5rem;
 }
-.menu-links{
+.menu-links, .menu-links:visited{
     color: #36b6cd;
 }
 .menu-links:hover{
@@ -162,6 +162,7 @@ body{
 .competentnist{
     background-image: url("../img/komp-bg.png");
     background-size: auto;
+    background-position: re;
 }
 .komp-head{
     font-size: 5em;
@@ -265,7 +266,36 @@ body{
     color: #36b6cd;
 }
 
+/*Послуги*/
+.pos{
 
+    margin-top: 5rem;
+}
+.pos-head{
+    font-weight: 900;
+    color: #36b6cd;
+}
+.pos1-head{
+    font-weight: 900;
+    color: #36b6cd;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.pos-text{
+    font-size: 1em;
+    margin-bottom: 2rem;
+    max-width: 65rem;
+}
+.arrow{
+    margin-top: 0.3rem;
+    margin-left: 2rem !important
+}
+.margin{
+    margin-left: 2rem !important
+}
+.margin-top{
+    margin-top: 10em;
+}
 /*footer*/
 .footer{
     background-color: #36b6cd;
