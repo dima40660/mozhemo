@@ -296,6 +296,24 @@ body{
 .margin-top{
     margin-top: 10em;
 }
+/*Portfolio*/
+.portfolio-text{
+    margin-top: 2rem;
+    max-width: 80%;
+}
+.port-img{
+    max-width: 75%;
+}
+.port-img2{
+    max-width: 93%;
+}
+.port-head{
+    margin-top: 1rem;
+    color: #36b6cd;
+}
+.port-text{
+    max-width: 80%;
+}
 /*footer*/
 .footer{
     background-color: #36b6cd;
