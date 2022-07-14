@@ -54,6 +54,10 @@ body{
     margin-left: 1rem;
 }
 
+.no-padding {
+    padding: 0;
+}
+
 /*banner*/
 .banner{
     max-width: 100%;
