@@ -290,7 +290,7 @@ body{
     z-index: 10;
     background-color: white;
     margin-top: 0;
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 .carousel-indicators button {
     height: 10px !important;
