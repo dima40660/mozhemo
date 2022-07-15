@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Nunito:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 body{
     font-family: 'Comfortaa', cursive;
@@ -40,6 +40,7 @@ body{
 }
 .menu-links, .menu-links:visited{
     color: #36b6cd;
+    font-size: 0.9em;
 }
 .menu-links:hover{
     color: #fff;
@@ -92,9 +93,8 @@ body{
 .offer2-text{
     margin-left: 10rem;
     margin-bottom: 1.5rem;
-    font-weight: bold;
-    font-size: 23px;
-    max-width: 40rem;
+    font-size: 19px;
+    max-width: 35rem;
 }
 .offer2-link:link, .offer2-link:visited{
     color:#fff;
@@ -111,12 +111,13 @@ body{
 }
 .offer-2{
     margin-left: 0;
-    margin-top: 10rem;
+    margin-top: 6rem;
     max-width: auto;
     height: 450px;
     background-image: url("../img/offer2.png");
     background-repeat: no-repeat;
     position: relative;
+    background-position: -25%;
     z-index: 10;
 }
 
@@ -132,7 +133,7 @@ body{
     background-color: white;
 }
 .offer3-text{
-    font-size: 30px;
+    font-size: 27px;
     color: #384556;
     margin: 0;
 }
@@ -148,11 +149,12 @@ body{
 }
 
 .services-head{
-    font-weight: 900;
+    font-weight: 800;
     color: #384556;
 }
 .services-brand{
     color: #36b6cd;
+    font-weight: 800;
 }
 .marg{
     margin-bottom: 3rem;
@@ -168,7 +170,7 @@ body{
     float: left;
     text-decoration: none;
     text-align: left;
-    font-weight: 900;
+    font-weight: 800;
 }
 .services-link:hover{
     color: #36b6cd;
@@ -182,9 +184,9 @@ body{
 .сomp-head{
     position: relative;
     z-index: 10;
-    font-size: 5vmax;
+    font-size: 3vmax;
     margin-left: 10rem;
-    font-weight: 900;
+    font-weight: 800;
     margin-top: 5rem;
     color: #fff;
 }
@@ -304,6 +306,7 @@ body{
     width: 2em;
     height: 2em;
     padding-top: 0.34em;
+    border-radius: 100%;
     font-size: 2rem;
     margin-right: 3em;
 }
@@ -313,6 +316,7 @@ body{
     width: 2em;
     height: 2em;
     padding-top: 0.34em;
+    border-radius: 100%;
     font-size: 2rem;
     margin-left: 3em;
 }
@@ -355,16 +359,17 @@ body{
 /*Послуги*/
 .pos{
 
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .pos-head{
-    font-weight: 900;
+    font-weight: 600;
     color: #36b6cd;
 }
 .pos1-head{
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 2em;
     color: #36b6cd;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 .pos-text{
@@ -382,13 +387,16 @@ body{
 .margin-top{
     margin-top: 10em;
 }
+.poslugi-img{
+    width: 21rem;
+}
 /*Portfolio*/
 .portfolio-text{
     margin-top: 2rem;
     max-width: 80%;
 }
 .port-img{
-    max-width: 75%;
+    max-width: 90%;
 }
 .port-img2{
     max-width: 93%;
