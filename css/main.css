@@ -440,6 +440,22 @@ body{
     width: 21rem;
 }
 /*Portfolio*/
+.portfolio-vertical-line{
+    height: 12rem;
+    width: 1px;
+    background-color: #36b6cd;
+    position: absolute;
+    margin-top: 1%;
+    left: 15%;
+}
+.portfolio-vertical-line1{
+    height: 12rem;
+    width: 1px;
+    background-color: #36b6cd;
+    position: absolute;
+    margin-top: 1%;
+    left: 49.5%;
+}
 .portfolio-text{
     margin-top: 2rem;
     max-width: 80%;
