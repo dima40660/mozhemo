@@ -163,18 +163,67 @@ body{
     margin-bottom: 4rem;
 }
 .services-text3{
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 .services-link:link, .services-link:visited{
     color:#000;
     float: left;
     text-decoration: none;
     text-align: left;
-    font-weight: 800;
+    font-weight: bold;
 }
 .services-link:hover{
     color: #36b6cd;
     transition: 0.2s;
+}
+.services-vertical-line{
+    height: 9.5rem;
+    width: 2px;
+    background-color: #36b6cd;
+    position: absolute;
+    left: 15%;
+}
+.services-vertical-line-1{
+    height: 11rem;
+    width: 2px;
+    background-color: #36b6cd;
+    position: absolute;
+    left: 15%;
+}
+.services-vertical-line-2{
+    height: 8rem;
+    width: 2px;
+    background-color: #36b6cd;
+    position: absolute;
+    left: 15%;
+}
+.services-vertical-line-3{
+    height: 7rem;
+    width: 2px;
+    background-color: #36b6cd;
+    position: absolute;
+    left: 15%;
+}
+.services-vertical-line1{
+    height: 12rem;
+    width: 2px;
+    background-color: #36b6cd;
+    position: absolute;
+    left: 35%;
+}
+.services-vertical-line2{
+    height: 12rem;
+    width: 2px;
+    background-color: #36b6cd;
+    position: absolute;
+    left: 63%;
+}
+.services-vertical-line3{
+    height: 12rem;
+    width: 2px;
+    background-color: #36b6cd;
+    position: absolute;
+    left: 35%;
 }
 /*kompetentnist*/
 .competence{
