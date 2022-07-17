@@ -7,6 +7,8 @@ body{
     background-color: white;
     position: relative;
     overflow-x: hidden;
+    max-width: 1920px;
+    margin: auto;
 }
 /*  navbar */
 .bg-custom{
@@ -159,6 +161,17 @@ body{
 .marg{
     margin-bottom: 3rem;
 }
+
+.services-text-block{
+    position: relative;
+}
+.services-text-block-empty{
+    height: 0;
+    margin-bottom: 0;
+}
+.services-text-block-content{
+    margin-left: 10px;
+}
 .services-text1{
     margin-bottom: 4rem;
 }
@@ -177,53 +190,11 @@ body{
     transition: 0.2s;
 }
 .services-vertical-line{
-    height: 9.5rem;
+    height: 100%;
     width: 2px;
     background-color: #36b6cd;
     position: absolute;
-    left: 15%;
-}
-.services-vertical-line-1{
-    height: 11rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 15%;
-}
-.services-vertical-line-2{
-    height: 8rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 15%;
-}
-.services-vertical-line-3{
-    height: 7rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 15%;
-}
-.services-vertical-line1{
-    height: 12rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 35%;
-}
-.services-vertical-line2{
-    height: 12rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 63%;
-}
-.services-vertical-line3{
-    height: 12rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 35%;
+    left: 0;
 }
 /*kompetentnist*/
 .competence{
@@ -306,6 +277,7 @@ body{
     border-color: #007E8F;
     position: absolute;
     z-index: 5;
+    display: inline-block;
 }
 .comp-circle-small{
     height: 250px;
@@ -324,6 +296,8 @@ body{
     width: 1500px;
     top: -725px;
     left: -750px;
+    border-top-color: transparent;
+    border-right-color: transparent;
 }
 .comp-center-point{
     background-color: white;
