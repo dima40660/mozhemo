@@ -7,6 +7,8 @@ body{
     background-color: white;
     position: relative;
     overflow-x: hidden;
+    max-width: 1920px;
+    margin: auto;
 }
 /*  navbar */
 .bg-custom{
@@ -116,8 +118,7 @@ body{
     height: 450px;
     background-image: url("../img/offer2.png");
     background-repeat: no-repeat;
-    position: relative;
-    background-position: -25%;
+    position: relative; 
     z-index: 10;
 }
 
@@ -159,6 +160,17 @@ body{
 .marg{
     margin-bottom: 3rem;
 }
+
+.services-text-block{
+    position: relative;
+}
+.services-text-block-empty{
+    height: 0;
+    margin-bottom: 0;
+}
+.services-text-block-content{
+    margin-left: 10px;
+}
 .services-text1{
     margin-bottom: 4rem;
 }
@@ -177,53 +189,11 @@ body{
     transition: 0.2s;
 }
 .services-vertical-line{
-    height: 9.5rem;
+    height: 100%;
     width: 2px;
     background-color: #36b6cd;
     position: absolute;
-    left: 15%;
-}
-.services-vertical-line-1{
-    height: 11rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 15%;
-}
-.services-vertical-line-2{
-    height: 8rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 15%;
-}
-.services-vertical-line-3{
-    height: 7rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 15%;
-}
-.services-vertical-line1{
-    height: 12rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 28.1%;
-}
-.services-vertical-line2{
-    height: 12rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 56%;
-}
-.services-vertical-line3{
-    height: 12rem;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 28.1%;
+    left: 0;
 }
 /*kompetentnist*/
 .competence{
@@ -306,6 +276,7 @@ body{
     border-color: #007E8F;
     position: absolute;
     z-index: 5;
+    display: inline-block;
 }
 .comp-circle-small{
     height: 250px;
@@ -324,6 +295,8 @@ body{
     width: 1500px;
     top: -725px;
     left: -750px;
+    border-top-color: transparent;
+    border-right-color: transparent;
 }
 .comp-center-point{
     background-color: white;
@@ -440,31 +413,31 @@ body{
     width: 21rem;
 }
 /*Portfolio*/
-.portfolio-vertical-line{
-    height: 12rem;
-    width: 1px;
-    background-color: #36b6cd;
-    position: absolute;
-    margin-top: 1%;
-    left: 15%;
+.portfolio-block-div{
+    margin-left: 0.5%;
 }
-.portfolio-vertical-line1{
-    height: 12rem;
-    width: 1px;
+.portfolio-vertical-line{
+    height: 100%;
+    width: 2px;
     background-color: #36b6cd;
     position: absolute;
-    margin-top: 1%;
-    left: 49.5%;
+    left: 0;
+}
+.portfolio-block{
+    position: relative;
 }
 .portfolio-text{
+    margin-left: 2%;
     margin-top: 2rem;
     max-width: 80%;
 }
 .port-img{
-    max-width: 90%;
+    position: relative;
+    max-width: 100%;
 }
 .port-img2{
-    max-width: 93%;
+    position: relative;
+    max-width: 100%;
 }
 .port-head{
     margin-top: 1rem;
