@@ -388,6 +388,7 @@ body{
     color: #36b6cd;
 }
 .pos1-head{
+    margin-left: 1.5rem;
     font-weight: 700;
     font-size: 2em;
     color: #36b6cd;
@@ -395,6 +396,7 @@ body{
     margin-bottom: 1rem;
 }
 .pos-text{
+    margin-left: 1.5rem;
     font-size: 1em;
     margin-bottom: 2rem;
     max-width: 65rem;
@@ -413,6 +415,13 @@ body{
     width: 21rem;
 }
 /*Portfolio*/
+.portfolio-head{
+    margin-left: 2%;
+    font-weight: 700;
+    font-size: 2em;
+    color: #36b6cd;
+    margin-bottom: 1rem;
+}
 .portfolio-block-div{
     margin-left: 0.5%;
 }
@@ -440,11 +449,19 @@ body{
     max-width: 100%;
 }
 .port-head{
+    margin-left: 1rem;
     margin-top: 1rem;
     color: #36b6cd;
 }
 .port-text{
+    margin-left: 1rem;
     max-width: 80%;
+}
+
+/*Portfolio-2*/
+.portfolio-block-2{
+    margin-top: 2rem;
+    position: relative;
 }
 /*footer*/
 .footer{
