@@ -442,6 +442,9 @@ body{
 .portfolio-block{
     position: relative;
 }
+.portfolio-block-2{
+    position: relative;
+}
 .portfolio-text{
     margin-left: 2%;
     margin-top: 2rem;
@@ -526,3 +529,19 @@ body{
     background: #555;
     width: 10px;
   }
+
+/* animation */
+.slide-enter{
+    opacity: 0;
+}
+.slide-enter-active{
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+.slide-leave-active{
+    transform: translateX(0);
+    transition: 0.3s;
+}
+.slide-leave-to{
+    opacity: 0;
+}

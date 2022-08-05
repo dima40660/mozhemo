@@ -7,41 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/main.sass">
+    <script src="js/vue.js"></script>
   </head>
   <body>
-        <nav class="navbar bg-custom">
-            <div class="container-fluid">
-                <ul class="nav lang-item">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link lang">UA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link lang">EN</a>
-                    </li>
-                </ul>
-                <a href="index.html" class="navbar-brand">
-                    <img src="img/logo.png" alt="">
-                </a>
-                <ul class="nav menu">
-                    <a href="portfolio.html" class="nav-link menu-links">ПОРТФОЛIО</a>
-                    <a href="uslugi.html" class="nav-link menu-links">ПОСЛУГИ</a>
-                    <a href="#" class="nav-link menu-links">ПРО НАС</a>
-                    <a href="#" class="nav-link menu-links">КОНТАКТИ</a>
-                </ul>
-                <ul class="nav numbers">
-                        <p class="number">+380 67 37 90 996</p>
-                        <p class="number">+380 67 999 18 87</p>
-                </ul>
-            </div>
-        </nav>
+        <div id="app">
+            <navbar></navbar>
         <div class="container-fluid banner">
         </div>
-        <div class="container-fluid offer-2">
-                <img src="img/logo2.png" alt="" class="offer2-logo">
-                <h1 class="offer2-head">Ми рекламне агентство повного циклу</h1>
-                <p class="offer2-text">Виконуємо комплекс послуг зі створення поточного ведення торгових марок, у тому числі  та власних торгових марок торговельних суб'єктів.</p>
-                <a href="#" class="offer2-link">Детальнiше</a>
-        </div>
+            <offer-2></offer-2>
         <div class="container-fluid offer-3">
             <h1 class="offer3-text">
                 Студія “Можемо!” надає повний спектр послуг від створення бренду до його виходу ринку.
@@ -223,6 +196,8 @@
                     </div>
                 </div>
         </div>
+        </div>
+    <script src="js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
