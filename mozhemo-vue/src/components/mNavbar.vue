@@ -1,5 +1,4 @@
-Vue.component('navbar', {
-    template : `
+<template>
     <nav class="navbar bg-custom">
             <div class="container-fluid">
                 <ul class="nav lang-item">
@@ -11,7 +10,7 @@ Vue.component('navbar', {
                     </li>
                 </ul>
                 <a href="index.html" class="navbar-brand">
-                    <img src="img/logo.png" alt="">
+                    <img src="@/assets/logo.png" alt="" srcset="">
                 </a>
                 <ul class="nav menu">
                     <a href="portfolio.html" class="nav-link menu-links">ПОРТФОЛIО</a>
@@ -25,21 +24,64 @@ Vue.component('navbar', {
                 </ul>
             </div>
         </nav>
-    `
-})
-Vue.component('offer-2', {
-    template : `
-    <div class="container-fluid offer-2">
-                <img src="img/logo2.png" alt="" class="offer2-logo">
-                <h1 class="offer2-head">Ми рекламне агентство повного циклу</h1>
-                <p class="offer2-text">Виконуємо комплекс послуг зі створення поточного ведення торгових марок, у тому числі  та власних торгових марок торговельних суб'єктів.</p>
-                <a href="#" class="offer2-link">Детальнiше</a>
-            </div>
-    `
-})
+</template>
 
-let sample = new Vue({
-    el: '#app',
-    data: {
-    }
-})
+<script>
+export default {
+    name: 'mNavbar'
+}
+</script>
+<style>
+/*  navbar */
+.bg-custom{
+    background-color: #313e53;
+    position: relative;
+}
+.lang-item{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+.lang, .lang:visited{
+    border-radius: 25px;
+    padding: 10px 10px;
+    color: #36b6cd;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+.lang:hover{
+    transition: 0s;
+    background-color: #36b6cd;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.menu{
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+.menu-links, .menu-links:visited{
+    color: #36b6cd;
+    font-size: 0.9em;
+}
+.menu-links:hover{
+    color: #fff;
+
+}
+.numbers{
+    color: #fff;
+    margin-right: 9rem;
+    margin-top: 3.5rem;
+    margin-bottom: 0rem;
+}
+.number{
+    margin-left: 1rem;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+</style>
