@@ -1,20 +1,44 @@
 <template>
-<mNavbar />
-<mMain />
+        <nav class="navbar bg-custom">
+            <div class="container-fluid">
+                <ul class="nav lang-item">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link lang">UA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link lang">EN</a>
+                    </li>
+                </ul>
+                <router-link to="/" class="navbar-brand">
+                    <img src="@/assets/logo.png" alt="" srcset="">
+                </router-link>    
+                <ul class="nav menu">
+                  <router-link to="/portfolio" class="nav-link menu-links">ПОРТФОЛIО</router-link>
+                  <router-link to="/services" class="nav-link menu-links">ПОСЛУГИ</router-link>
+                  <router-link to="/about-us" class="nav-link menu-links">ПРО НАС</router-link>
+                    <a href="#" class="nav-link menu-links">КОНТАКТИ</a>
+                </ul>
+                <ul class="nav numbers">
+                        <p class="number">+380 67 37 90 996</p>
+                        <p class="number">+380 67 999 18 87</p>
+                </ul>
+            </div>
+        </nav>
+        <router-view/>
 <mFooter />
 </template>
 
 <script>
 
-import mNavbar from './components/mNavbar'
 import mMain from './components/mMain.vue'
 import mFooter from './components/mFooter.vue'
+import mPortfolio from './components/mMagrett.vue'
 
 export default {
   name: 'App',
   components : {
-    mNavbar,
     mMain,
+    mPortfolio,
     mFooter
   }
 }
@@ -57,4 +81,63 @@ export default {
     width: 10px;
   }
 
+/*  navbar */
+.bg-custom{
+    background-color: #313e53;
+    position: relative;
+}
+.lang-item{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+.lang, .lang:visited{
+    border-radius: 25px;
+    padding: 10px 10px;
+    color: #36b6cd;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+.lang:hover{
+    transition: 0s;
+    background-color: #36b6cd;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.menu{
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+.menu-links, .menu-links:visited{
+    color: #36b6cd;
+    font-size: 0.9em;
+}
+.menu-links:hover{
+    color: #fff;
+}
+.menu-links.router-link-exact-active{
+    color: #fff;
+
+}
+.numbers{
+    color: #fff;
+    margin-right: 9rem;
+    margin-top: 3.5rem;
+    margin-bottom: 0rem;
+}
+.number{
+    margin-left: 1rem;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.pos-head{
+    font-weight: 600;
+    color: #36b6cd;
+}
 </style>

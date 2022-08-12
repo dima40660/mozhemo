@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid footer align-self-center">
+    <div class="container-fluid footer align-self-center mt-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-2 col-md-12 align-self-start">
