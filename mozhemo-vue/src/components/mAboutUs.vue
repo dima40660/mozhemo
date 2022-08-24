@@ -52,6 +52,38 @@
       <div class="container">
           <h1 class="about-us-header mt-5">Етапи створення нового бренду</h1>
       </div>
+      <div class="container text-center about-us-create">
+          <div class="row">
+          <div class="col align-self-start about-us-col-top">
+              <img src="@/assets/aus1.png" alt="">
+              <p class="about-us-create-text-top">Підготовка збір інформації</p>
+          </div>
+          <div class="col align-self-end about-us-col-bottom">
+              <img src="@/assets/aus2.png" alt="">
+              <p class="about-us-create-text-bottom">Розробка стратегії бренду</p>
+          </div>
+          <div class="col align-self-start about-us-col-top">
+              <img src="@/assets/aus3.png" alt="">
+              <p class="about-us-create-text-top">Розробка назви копірайт</p>
+          </div>
+          <div class="col align-self-end about-us-col-bottom">
+              <img src="@/assets/aus4.png" alt="">
+              <p class="about-us-create-text-bottom">Розробка фірмового стилю</p>
+          </div>
+          <div class="col align-self-start about-us-col-top">
+              <img src="@/assets/aus5.png" alt="">
+              <p class="about-us-create-text-top">Дизайн упаковки етикетки. Фото</p>
+          </div>
+          <div class="col align-self-end about-us-col-bottom">
+              <img src="@/assets/aus6.png" alt="">
+              <p class="about-us-create-text-bottom">Стратегія просування бренду</p>
+          </div>
+          <div class="col align-self-start about-us-col-top">
+              <img src="@/assets/aus7.png" alt="">
+              <p class="about-us-create-text-top">Дизайн  інтерфейсів та WEB</p>
+          </div>
+      </div>
+      </div>
   </div>
 </template>
 
@@ -127,5 +159,33 @@ export default {
     font-size: 1.1em;
     max-width: 32rem;
     color: #fff;
+}
+/*-- Stages Block --*/
+.about-us-create{
+    margin-top: 5rem;
+    margin-bottom: 15rem;
+}
+/*-- Top Column --*/
+.about-us-col-top{
+    position: relative;
+}
+.about-us-create-text-top{
+    position: absolute;
+    left: 70%;
+    top: -7%;
+    width: 70%;
+    text-align: start;
+}
+/*-- Bottom Column --*/
+.about-us-col-bottom{
+    padding-top: 14.5rem;
+    position: relative;
+}
+.about-us-create-text-bottom{
+    position: absolute;
+    left: -20%;
+    top: 92.3%;
+    max-width: 50%;
+    text-align: right;
 }
 </style>
