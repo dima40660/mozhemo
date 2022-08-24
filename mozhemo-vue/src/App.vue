@@ -16,7 +16,7 @@
                   <router-link to="/portfolio" class="nav-link menu-links">ПОРТФОЛIО</router-link>
                   <router-link to="/services" class="nav-link menu-links">ПОСЛУГИ</router-link>
                   <router-link to="/about-us" class="nav-link menu-links">ПРО НАС</router-link>
-                    <a href="#" class="nav-link menu-links">КОНТАКТИ</a>
+                    <router-link to="/contacts" class="nav-link menu-links">КОНТАКТИ</router-link>
                 </ul>
                 <ul class="nav numbers">
                         <p class="number">+380 67 37 90 996</p>

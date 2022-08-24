@@ -4,6 +4,7 @@ import mPortfolio from '../components/mPortfolio.vue'
 import mServices from '../components/mServices.vue'
 import mMagrett from '../components/mMagrett.vue'
 import mAboutUs from '../components/mAboutUs.vue'
+import mContacts from '../components/mContacts.vue'
 const routes = [
     {
         path : '/',
@@ -29,6 +30,11 @@ const routes = [
         path : '/about-us',
         name : 'About-us',
         component : mAboutUs
+    },
+    {
+        path : '/contacts',
+        name : 'Contacts',
+        component : mContacts
     }
 ]
 
