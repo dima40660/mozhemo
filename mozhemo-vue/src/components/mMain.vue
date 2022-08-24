@@ -1,5 +1,7 @@
 <template>
-<div class="banner"></div>
+<div class="banner">
+<img src="@/assets/banner-overlay.png" alt="">
+</div>
         <mOffer2 />
         <mOffer3 />
         <mService />
