@@ -3,7 +3,7 @@
           <div class="container">
               <h1 class="contacts-head">Контакти</h1>
             <div class="contacts-banner">
-                <img src="@/assets/about-us-banner.png" alt="" class="img-fluid">
+                <img src="@/assets/contacts-banner.png" alt="" class="img-fluid">
             </div>
           </div>
   </div>
