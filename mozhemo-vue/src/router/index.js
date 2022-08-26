@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router"
 import mMain from '../components/mMain.vue'
 import mPortfolio from '../components/mPortfolio.vue'
 import mServices from '../components/mServices.vue'
-import mMagrett from '../components/mMagrett.vue'
+import mProduct from '../components/mProduct.vue'
 import mAboutUs from '../components/mAboutUs.vue'
 import mContacts from '../components/mContacts.vue'
 const routes = [
@@ -22,9 +22,9 @@ const routes = [
         component : mServices
     },
     {
-        path : '/portfolio/magrett',
-        name : 'Magrett',
-        component: mMagrett
+        path : '/portfolio/product',
+        name : 'Product',
+        component: mProduct
     },
     {
         path : '/about-us',

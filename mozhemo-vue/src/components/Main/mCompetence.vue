@@ -2,12 +2,8 @@
      <div class="container-fluid competence">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <h1 class="сomp-head">Компетентнiсть</h1>
-                    <p class="comp-text w-50">Студія “Можемо” пропонує повний спектр послуг з
-                        розробки товарних, корпоративних, фінансових
-                        брендів - від формування
-                        стратегії та креативної ідеї до оформлення просторів
-                        та створення сайту.</p>
+                    <h1 class="сomp-head">{{$t('competence.competence-head')}}</h1>
+                    <p class="comp-text w-50">{{$t('competence.competence-text')}}</p>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="comp-list">

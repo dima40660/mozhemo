@@ -10,7 +10,7 @@
             </div>
                 <div class="col-xl-12 col-md-1">
                     <img src="@/assets/kramar.png" alt="" class="poslugi-img">
-                    <router-link to="/portfolio/magrett"><img src="@/assets/magred.png" class="margin poslugi-img" alt=""></router-link>
+                    <router-link to="/portfolio/product"><img src="@/assets/magred.png" class="margin poslugi-img" alt=""></router-link>
                     <a href="#">
                         <img src="@/assets/arrow.png" class="arrow" alt="">
                     </a>

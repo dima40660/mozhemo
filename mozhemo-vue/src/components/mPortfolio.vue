@@ -5,7 +5,7 @@
             <div class="container mt-5 mb-5">
                 <div class="row">
                     <div class="col-xl-4 col-md-12">
-                        <router-link to="/portfolio/magrett"><img src="@/assets/magred.png" alt=""></router-link>
+                        <router-link to="/portfolio/product"><img src="@/assets/magred.png" alt=""></router-link>
                         <div class="container portfolio-block-2">
                             <div class="portfolio-vertical-line"></div>
                             <h3 class="port-head w-50">Редизайн для чая Magrett</h3>

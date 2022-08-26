@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name : 'mPortfolioImgHead'
+    name : 'mProductImgHead'
 }
 </script>
 

@@ -2,23 +2,23 @@
     <div class="container pos">
                 <h1 class="pos-head">Портфоліо</h1>
             </div>
-    <mMagrettImgHead />
-    <mMagrettBlock />
-    <mMagrettImgGrid />                  
+    <mProductImgHead />
+    <mProductBlock />
+    <mProductImgGrid />                  
 </template>
 
 <script>
 
-import mMagrettImgHead from './Magrett/mMagrettImgHead'
-import mMagrettBlock from './Magrett/mMagrettBlock'
-import mMagrettImgGrid from './Magrett/mMagrettImgGrid'
+import mProductImgHead from './Product/mProductImgHead'
+import mProductBlock from './Product/mProductBlock'
+import mProductImgGrid from './Product/mProductImgGrid'
 
 export default {
-    name : 'mMagrett',
+    name : 'mProduct',
     components: {
-        mMagrettImgHead,
-        mMagrettBlock,
-        mMagrettImgGrid
+        mProductImgHead,
+        mProductBlock,
+        mProductImgGrid
     }
 }
 </script>

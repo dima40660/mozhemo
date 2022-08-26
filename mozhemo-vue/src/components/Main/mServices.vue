@@ -2,40 +2,32 @@
     <div class="container-fluid services">
             <div class="row">
                 <div class="col-xl-3 col-md-12 marg">
-                    <h1 class="services-head">Послуги</h1>
+                    <h1 class="services-head">{{$t('services.services-head')}}</h1>
                 </div>
                 <div class="col-xl-4 col-md-12 marg services-text-block">
                     <div class="services-vertical-line"></div>
                     <div class="services-text-block-content">
-                        <h1 class="services-brand">Брендiнг послуги</h1>
-                        <p class="services-text1">Розробка бренду пiд ключ.
-                            Бренд - це платформа, де будується успіх бізнесу.
-                        </p>
-                        <a href="#" class="services-link">Детальнiше</a>
+                        <h1 class="services-brand">{{$t('services.services-branding')}}</h1>
+                        <p class="services-text1">{{$t('services.services-branding-text')}}</p>
+                        <a href="#" class="services-link">{{$t('services.services-link')}}</a>
                     </div>
 
                 </div>
                 <div class="col-xl-4 col-md-12 marg services-text-block">
                     <div class="services-vertical-line"></div>
                     <div class="services-text-block-content">
-                        <h1 class="services-brand">Дизайн послуги</h1>
-                        <p class="services-text2">Бренд-дизайн - це система елементів, що формують візуальний образ компанії або продукту та диференціюють бренд від
-                            конкурентів. Переоцінити важливість дизайну бренду у складі
-                            комплексного брендингу неможливо
-                        </p>
-                        <a href="#" class="services-link">Детальнiше</a>
+                        <h1 class="services-brand">{{$t('services.services-design')}}</h1>
+                        <p class="services-text2">{{$t('services.services-design-text')}}</p>
+                        <a href="#" class="services-link">{{$t('services.services-link')}}</a>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-12 marg services-text-block services-text-block-empty"></div>
                 <div class="col-xl-4 col-md-12 marg services-text-block">
                     <div class="services-vertical-line"></div>
                     <div class="services-text-block-content">
-                        <h1 class="services-brand">Дизайн iнтерфейсiв та WEB</h1>
-                        <p class="services-text3">
-                            Сьогодні практично всі бренди так чи інакше присутні
-                            у цифровому середовищі
-                        </p>
-                        <a href="#" class="services-link">Детальнiше</a>
+                        <h1 class="services-brand">{{$t('services.services-web')}}</h1>
+                        <p class="services-text3">{{$t('services.services-web-text')}}</p>
+                        <a href="#" class="services-link">{{$t('services.services-link')}}</a>
                     </div>
                 </div>
             </div>
@@ -87,6 +79,7 @@ export default {
 }
 .services-text3{
     margin-bottom: 1rem;
+    max-width: 90%;
 }
 .services-link:link, .services-link:visited{
     color:#000;

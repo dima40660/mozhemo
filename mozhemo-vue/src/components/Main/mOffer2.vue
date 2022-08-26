@@ -1,9 +1,9 @@
 <template>
     <div class="container-fluid offer-2">
                 <img src="@/assets/logo2.png" alt="" class="offer2-logo">
-                <h1 class="offer2-head">Ми рекламне агентство повного циклу</h1>
-                <p class="offer2-text">Виконуємо комплекс послуг зі створення поточного ведення торгових марок, у тому числі  та власних торгових марок торговельних суб'єктів.</p>
-                <a href="#" class="offer2-link">Детальнiше</a>
+                <h1 class="offer2-head">{{$t('offer-2.offer-2-head')}}</h1>
+                <p class="offer2-text">{{$t('offer-2.offer-2-text')}}</p>
+                <a href="#" class="offer2-link">{{$t('offer-2.offer2-link')}}</a>
             </div>
 </template>
 

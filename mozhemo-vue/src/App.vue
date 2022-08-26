@@ -1,22 +1,15 @@
 <template>
         <nav class="navbar bg-custom">
             <div class="container-fluid">
-                <ul class="nav lang-item">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link lang">UA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link lang">EN</a>
-                    </li>
-                </ul>
+                <mLocaleSwitcher />
                 <router-link to="/" class="navbar-brand">
                     <img src="@/assets/logo.png" alt="" srcset="">
                 </router-link>    
                 <ul class="nav menu">
-                  <router-link to="/portfolio" class="nav-link menu-links">ПОРТФОЛIО</router-link>
-                  <router-link to="/services" class="nav-link menu-links">ПОСЛУГИ</router-link>
-                  <router-link to="/about-us" class="nav-link menu-links">ПРО НАС</router-link>
-                    <router-link to="/contacts" class="nav-link menu-links">КОНТАКТИ</router-link>
+                  <router-link to="/portfolio" class="nav-link menu-links">{{ $t('navbar.portfolio')}}</router-link>
+                  <router-link to="/services" class="nav-link menu-links">{{ $t('navbar.services')}}</router-link>
+                  <router-link to="/about-us" class="nav-link menu-links">{{ $t('navbar.about-us')}}</router-link>
+                  <router-link to="/contacts" class="nav-link menu-links">{{ $t('navbar.contacts')}}</router-link>
                 </ul>
                 <ul class="nav numbers">
                         <p class="number">+380 67 37 90 996</p>
@@ -29,14 +22,15 @@
 </template>
 
 <script>
-
 import mMain from './components/mMain.vue'
 import mFooter from './components/mFooter.vue'
-import mPortfolio from './components/mMagrett.vue'
+import mPortfolio from './components/mProduct.vue'
+import mLocaleSwitcher from './components/mLocaleSwitcher.vue'
 
 export default {
   name: 'App',
   components : {
+    mLocaleSwitcher,
     mMain,
     mPortfolio,
     mFooter
@@ -86,27 +80,6 @@ export default {
     background-color: #313e53;
     position: relative;
 }
-.lang-item{
-    margin-left: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 0.5rem;
-}
-.lang, .lang:visited{
-    border-radius: 25px;
-    padding: 10px 10px;
-    color: #36b6cd;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-}
-.lang:hover{
-    transition: 0s;
-    background-color: #36b6cd;
-    color: white;
-    border-radius: 25px;
-    font-weight: bold;
-}
-
 .menu{
     margin-top: 3rem;
     margin-bottom: 0.5rem;
@@ -140,4 +113,5 @@ export default {
     font-weight: 600;
     color: #36b6cd;
 }
+
 </style>
