@@ -2,10 +2,10 @@
 <div class="lang-switch">
       <ul class="nav lang-item">
                     <li class="nav-item">
-                        <a href="#" class="nav-link lang" @click="setLocale('ua')">UA</a>
+                        <a href="#" class="nav-link lang" :class="{active: isActiveLocale('ua') }" @click="setLocale('ua')">UA</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link lang" @click="setLocale('en')">EN</a>
+                        <a href="#" class="nav-link lang" :class="{active: isActiveLocale('en') }" @click="setLocale('en')">EN</a>
                     </li>
                 </ul>
 </div>
@@ -13,10 +13,19 @@
 
 <script>
 export default {
+    data(){
+        return{
+            locale: 'ua'
+        }
+    },
     name: 'mLocaleSwitcher',
     methods: {
-      setLocale(locale){
-          this.$i18n.locale = locale
+      setLocale(l){
+          this.locale = l
+          this.$i18n.locale = l
+      },
+      isActiveLocale(l){
+        return this.locale == l
       }
   }
 }
