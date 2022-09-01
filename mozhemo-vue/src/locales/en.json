@@ -5,6 +5,9 @@
     "about-us": "ABOUT US",
     "contacts": "CONTACTS"
   },
+  "banner": {
+    "banner-text": "Design project"
+  },
   "offer-2": {
     "offer-2-head": "We are a full cycle advertising agency",
     "offer-2-text": "We provide a range of services for the creation of ongoing management of trademarks, including the own trademarks of trading entities.",
@@ -27,7 +30,18 @@
     "services-link" : "More"
   },
   "competence": {
-    "competence-head": "Competence",
-    "competence-text": "“Mozhemo” studio offers a full range of services for the development of commercial, corporate, and financial brands - from the formation of a strategy and creative idea to the design of spaces and the creation of a website."
-  }
+    "head": "Competence",
+    "text": "“Mozhemo” studio offers a full range of services for the development of commercial, corporate, and financial brands - from the formation of a strategy and creative idea to the design of spaces and the creation of a website.",
+      "grid": {
+        "brand-strategy-dev": "Brand strategy development",
+        "private-lable" : "Private lable",
+        "title-dev": "Title development and copyright",
+        "brandbook": "Brandbook",
+        "corp-style-dev": "Development of corporate style",
+        "pack-design": "Packaging design",
+        "promotion-strategy": "Brand promotion strategy",
+        "web-interface-design": "Design of interfaces and WEB"
+      }
+  },
+  "footer": "Mo-Fr"
 }

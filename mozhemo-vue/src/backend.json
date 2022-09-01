@@ -1,0 +1,28 @@
+{
+    "banner":[
+        {
+            "image_url": "@/assets/banner.jpg",
+            "title": "Title text"
+        }
+    ],
+    "banner-overlay":[
+        {
+            "image_url": "@/assets/banner.jpg",
+            "title": "Title text"
+        }
+    ],
+    "carousel":[
+        {
+            "image_url":"https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/GTYSdDW/lovatnet-lake-beautiful-nature-norway_rv-0czoz4l_thumbnail-1080_01.png",
+            "link":"/page1"
+        },
+        {
+            "image_url":"https://www.timeoutdubai.com/public/images/2020/04/15/Hatta.jpg",
+            "link":"/page2"
+        },
+        {
+            "image_url":"https://www.second-nature.com/files/cms/Slides/slide-6.jpg",
+            "link":"/page3"
+        }
+    ]
+}

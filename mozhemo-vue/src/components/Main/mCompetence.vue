@@ -2,8 +2,8 @@
      <div class="container-fluid competence">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <h1 class="сomp-head">{{$t('competence.competence-head')}}</h1>
-                    <p class="comp-text w-50">{{$t('competence.competence-text')}}</p>
+                    <h1 class="сomp-head">{{$t('competence.head')}}</h1>
+                    <p class="comp-text w-50">{{$t('competence.text')}}</p>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <div class="comp-list">
@@ -18,38 +18,38 @@
                             </div>
                             <div class="row comp-row">
                                 <div class="col-5">
-                                    <p class="comp-text-bl">Розробка стратегії бренду</p>
+                                    <p class="comp-text-bl">{{$t('competence.grid.brand-strategy-dev')}}</p>
                                 </div>
                                 <div class="col-2"></div>
                                 <div class="col-5">
-                                    <p class="comp-text-wh">Privat lable</p>
+                                    <p class="comp-text-wh">{{$t('competence.grid.private-lable')}}</p>
                                 </div>
                             </div>
                             <div class="row comp-row">
                                 <div class="col-5">
-                                    <p class="comp-text-bl">Розробка назви та копірайт</p>
+                                    <p class="comp-text-bl">{{$t('competence.grid.title-dev')}}</p>
                                 </div>
                                 <div class="col-2"></div>
                                 <div class="col-5">
-                                    <p class="comp-text-wh">Brandbook</p>
+                                    <p class="comp-text-wh">{{$t('competence.grid.brandbook')}}</p>
                                 </div>
                             </div>
                             <div class="row comp-row">
                                 <div class="col-5">
-                                    <p class="comp-text-bl">Розробка фірмового стилю</p>
+                                    <p class="comp-text-bl">{{$t('competence.grid.corp-style-dev')}}</p>
                                 </div>
                                 <div class="col-2"></div>
                                 <div class="col-5">
-                                    <p class="comp-text-wh">Дизайн упаковки</p>
+                                    <p class="comp-text-wh">{{$t('competence.grid.pack-design')}}</p>
                                 </div>
                             </div>
                             <div class="row comp-row">
                                 <div class="col-5">
-                                    <p class="comp-text-bl">Стратегія просування бренду</p>
+                                    <p class="comp-text-bl">{{$t('competence.grid.promotion-strategy')}}</p>
                                 </div>
                                 <div class="col-2"></div>
                                 <div class="col-5">
-                                    <p class="comp-text-wh">Дизайн інтерфейсів та WEB</p>
+                                    <p class="comp-text-wh">{{$t('competence.grid.web-interface-design')}}</p>
                                 </div>
                             </div>
 

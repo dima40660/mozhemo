@@ -1,6 +1,8 @@
 <template>
 <div class="banner">
-<img src="@/assets/banner-overlay.png" alt="">
+            <div class="banner-overlay"></div>
+            <p class="overlay-text">{{ $t('banner.banner-text')}}</p>
+            <p class="overlay-text-second"><sup>тм</sup> Crimean Night</p>
 </div>
         <mOffer2 />
         <mOffer3 />
@@ -34,11 +36,38 @@ export default{
     max-width: 100%;
     height: 759px;
     background-image:url("@/assets/banner.png");
-    place-items: center;
+    position: relative;
+}
+.banner-overlay{
+    max-width: 100%;
+    height: 759px;
+    background-image: url("@/assets/banner-overlay-test.png");
+    opacity: 95%;
     position: relative;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-position: center;
+    background-clip: padding-box;
+    left: 22%;
 }
+.overlay-text{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    max-width: 50%;
+    color: #fff;
+    text-align: left;
+    font-size: 2em;
+}
+.overlay-text-second{
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    max-width: 50%;
+    color: #fff;
+    text-align: left;
+    font-size: 2em;
+}
+
 .img-fluid{
     max-width: 100%;
     height: auto;
