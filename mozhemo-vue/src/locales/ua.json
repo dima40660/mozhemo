@@ -43,5 +43,8 @@
           "web-interface-design": "Дизайн інтерфейсів та WEB"
         }
   },
-  "footer": "Пн-Пт"
+  "footer": "Пн-Пт",
+  "portfolio": {
+    "header": "Портфоліо"
+  }
 }

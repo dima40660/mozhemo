@@ -1,6 +1,6 @@
 <template>
   <div class="container pos">
-                <h1 class="pos-head">Портфоліо</h1>
+                <h1 class="pos-head">{{ $t('portfolio.header')}}</h1>
             </div>
             <div class="container mt-5 mb-5">
                 <div class="row">

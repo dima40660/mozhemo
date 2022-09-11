@@ -43,5 +43,8 @@
         "web-interface-design": "Design of interfaces and WEB"
       }
   },
-  "footer": "Mo-Fr"
+  "footer": "Mo-Fr",
+  "portfolio": {
+    "header": "Portfolio"
+  }
 }
