@@ -18,64 +18,58 @@
   },
   "services": {
     "services-head": "Services",
-    
     "services-branding": "Branding services",
-      "services-branding-text":"Turnkey brand development. A brand is a platform on which business success is built.",
-    
-      "services-design": "Service design",
-      "services-design-text":"Brand design is a system of elements that form the visual image of a company or product and differentiate the brand from competitors. It is impossible to overestimate the importance of brand design as part of complex branding",
-
-    "services-web" : "Design of interfaces and WEB",
-    "services-web-text" : "Today, almost all brands are present in the digital environment in one way or another",
-    "services-link" : "More"
+    "services-branding-text": "Turnkey brand development. A brand is a platform on which business success is built.",
+    "services-design": "Service design",
+    "services-design-text": "Brand design is a system of elements that form the visual image of a company or product and differentiate the brand from competitors. It is impossible to overestimate the importance of brand design as part of complex branding",
+    "services-web": "Design of interfaces and WEB",
+    "services-web-text": "Today, almost all brands are present in the digital environment in one way or another",
+    "services-link": "More"
   },
   "competence": {
     "head": "Competence",
     "text": "“Mozhemo” studio offers a full range of services for the development of commercial, corporate, and financial brands - from the formation of a strategy and creative idea to the design of spaces and the creation of a website.",
-      "grid": {
-        "brand-strategy-dev": "Brand strategy development",
-        "private-lable" : "Private lable",
-        "title-dev": "Title development and copyright",
-        "brandbook": "Brandbook",
-        "corp-style-dev": "Development of corporate style",
-        "pack-design": "Packaging design",
-        "promotion-strategy": "Brand promotion strategy",
-        "web-interface-design": "Design of interfaces and WEB"
-      }
+    "grid": {
+      "brand-strategy-dev": "Brand strategy development",
+      "private-lable": "Private lable",
+      "title-dev": "Title development and copyright",
+      "brandbook": "Brandbook",
+      "corp-style-dev": "Development of corporate style",
+      "pack-design": "Packaging design",
+      "promotion-strategy": "Brand promotion strategy",
+      "web-interface-design": "Design of interfaces and WEB"
+    }
   },
   "footer": "Mo-Fr",
   "portfolio": {
     "header": "Portfolio",
-    "development":"DEVELOPMENT",
-
-    "magrett":{
-      "header":"Redesign for Magrett tea",
-      "type":"logo and packaging design"
+    "development": "DEVELOPMENT",
+    "magrett": {
+      "header": "Redesign for Magrett tea",
+      "type": "logo and packaging design"
     },
-
-    "respublika":{
-      "header":"Respublika Shopping Center booklet design",
+    "respublika": {
+      "header": "Respublika Shopping Center booklet design",
       "type": "presentation booklet"
     },
-
-    "kramar":{
-      "header":"Rebranding for Kramar company",
-      "type":"brand renewal"
+    "kramar": {
+      "header": "Rebranding for Kramar company",
+      "type": "brand renewal"
     },
-
-    "monami":{
-      "header":"Logo for Mon Ami Macarons",
-      "type":"logo design"
+    "monami": {
+      "header": "Logo for Mon Ami Macarons",
+      "type": "logo design"
     },
-
-    "cr-night":{
-      "header":"Crimean Night wine labels",
-      "type":"logo and label design"
+    "cr-night": {
+      "header": "Crimean Night wine labels",
+      "type": "logo and label design"
     },
-
-    "zic":{
-      "header":"Brand Guide for TM ZIC",
-      "type":"guidebook"
+    "zic": {
+      "header": "Brand Guide for TM ZIC",
+      "type": "guidebook"
     }
+  },
+  "services-page": {
+    "header":"Services"
   }
 }

@@ -77,5 +77,28 @@
       "header":"Brand Guide для TM ZIC",
       "type":"guidebook"
     }
+  },
+  "services-page": {
+    "header":"Послуги",
+    "head":{
+      "dev-brand":"Розробка і створення бренду",
+      "dev-name":"Розробка назви та копірайт",
+      "logo-design":"Дизайн логотипу",
+      "corp-identity":"Фірмовий стиль",
+      "brand-book":"BRAND BOOK",
+      "pack-design":"Дизайн упаковки та етикетки",
+      "web-design":"Дизайн інтерфейсів та WEB",
+      "catalog":"Каталоги та буклети"
+    },
+    "text":{
+      "dev-brand":"Розробка і створення бренду",
+      "dev-name":"Розробка назви та копірайт",
+      "logo-design":"Дизайн логотипу",
+      "corp-identity":"Фірмовий стиль",
+      "brand-book":"BRAND BOOK",
+      "pack-design":"Дизайн упаковки та етикетки",
+      "web-design":"Дизайн інтерфейсів та WEB",
+      "catalog":"Каталоги та буклети"
+    }
   }
 }
