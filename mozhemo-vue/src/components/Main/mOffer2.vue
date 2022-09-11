@@ -3,7 +3,7 @@
                 <img src="@/assets/logo2.png" alt="" class="offer2-logo">
                 <h1 class="offer2-head">{{$t('offer-2.offer-2-head')}}</h1>
                 <p class="offer2-text">{{$t('offer-2.offer-2-text')}}</p>
-                <a href="#" class="offer2-link">{{$t('offer-2.offer2-link')}}</a>
+                <router-link to="/about-us" class="offer2-link">{{$t('offer-2.offer2-link')}}</router-link>
             </div>
 </template>
 

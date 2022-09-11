@@ -45,6 +45,37 @@
   },
   "footer": "Mo-Fr",
   "portfolio": {
-    "header": "Portfolio"
+    "header": "Portfolio",
+    "development":"DEVELOPMENT",
+
+    "magrett":{
+      "header":"Redesign for Magrett tea",
+      "type":"logo and packaging design"
+    },
+
+    "respublika":{
+      "header":"Respublika Shopping Center booklet design",
+      "type": "presentation booklet"
+    },
+
+    "kramar":{
+      "header":"Rebranding for Kramar company",
+      "type":"brand renewal"
+    },
+
+    "monami":{
+      "header":"Logo for Mon Ami Macarons",
+      "type":"logo design"
+    },
+
+    "cr-night":{
+      "header":"Crimean Night wine labels",
+      "type":"logo and label design"
+    },
+
+    "zic":{
+      "header":"Brand Guide for TM ZIC",
+      "type":"guidebook"
+    }
   }
 }

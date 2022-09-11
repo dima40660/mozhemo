@@ -8,54 +8,54 @@
                         <router-link to="/portfolio/product"><img src="@/assets/magred.png" alt=""></router-link>
                         <div class="container portfolio-block-2">
                             <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head w-50">Редизайн для чая Magrett</h3>
-                            <h6 class="port-text mt-3">РОЗРОБКА</h6>
-                            <p class="port-text mb-5">дизайн логотипу та упаковки</p>
+                            <h3 class="port-head">{{ $t('portfolio.magrett.header')}}</h3>
+                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
+                            <p class="port-text mb-5">{{ $t('portfolio.magrett.type')}}</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-12">
                         <img src="@/assets/katalog1.png" alt="">
                         <div class="container portfolio-block-2">
                             <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head">Дизайн буклета ТРЦ Respublika</h3>
-                            <h6 class="port-text mt-3">РОЗРОБКА</h6>
-                            <p class="port-text mb-5">презентаційний буклет</p>
+                            <h3 class="port-head">{{ $t('portfolio.respublika.header')}}</h3>
+                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
+                            <p class="port-text mb-5">{{ $t('portfolio.respublika.type')}}</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-12">
                         <img src="@/assets/kramar.png" alt="">
                         <div class="container portfolio-block-2">
                             <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head">Ребрендінг для компанії "Крамар"</h3>
-                            <h6 class="port-text mt-3">РОЗРОБКА</h6>
-                            <p class="port-text mb-5">оновлення бренду</p>
+                            <h3 class="port-head">{{ $t('portfolio.kramar.header')}}</h3>
+                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
+                            <p class="port-text mb-5">{{ $t('portfolio.kramar.type')}}</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-12">
                         <img src="@/assets/monami.png" alt="">
                         <div class="container portfolio-block-2">
                             <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head w-75">Логотип для Mon Ami Macarons</h3>
-                            <h6 class="port-text mt-3">РОЗРОБКА</h6>
-                            <p class="port-text mb-5">дизайн логотипу</p>
+                            <h3 class="port-head">{{ $t('portfolio.monami.header')}}</h3>
+                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
+                            <p class="port-text mb-5">{{ $t('portfolio.monami.type')}}</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-12">
                         <img src="@/assets/pack.png" alt="">
                         <div class="container portfolio-block-2">
                             <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head w-70">Етикетки для вина Crimean Night</h3>
-                            <h6 class="port-text mt-3">РОЗРОБКА</h6>
-                            <p class="port-text mb-5">дизайн логотипу та етикеток</p>
+                            <h3 class="port-head">{{ $t('portfolio.cr-night.header')}}</h3>
+                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
+                            <p class="port-text mb-5">{{ $t('portfolio.cr-night.type')}}</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-12">
                         <img src="@/assets/brand3.png" alt="">
                         <div class="container portfolio-block-2">
                             <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head w-50">Brand Guide для TM ZIC</h3>
-                            <h6 class="port-text mt-3">РОЗРОБКА</h6>
-                            <p class="port-text mb-5">guidebook</p>
+                            <h3 class="port-head w-50">{{ $t('portfolio.zic.header')}}</h3>
+                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
+                            <p class="port-text mb-5">{{ $t('portfolio.zic.type')}}</p>
                         </div>
                     </div>
                 </div>
@@ -91,6 +91,7 @@ export default {
     margin-left: 1rem;
     margin-top: 1rem;
     font-weight: 700;
+    max-width: 80%;
     color: #36b6cd;
 }
 .port-text{

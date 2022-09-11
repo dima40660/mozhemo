@@ -45,6 +45,37 @@
   },
   "footer": "Пн-Пт",
   "portfolio": {
-    "header": "Портфоліо"
+    "header": "Портфоліо",
+    "development":"РОЗРОБКА",
+
+    "magrett":{
+      "header":"Редизайн для чая Magrett",
+      "type":"дизайн логотипу та упаковки"
+    },
+
+    "respublika":{
+      "header":"Дизайн буклета ТРЦ Respublika",
+      "type": "презентаційний буклет"
+    },
+
+    "kramar":{
+      "header":"Ребрендінг для компанії Крамар",
+      "type":"оновлення бренду"
+    },
+
+    "monami":{
+      "header":"Логотип для Mon Ami Macarons",
+      "type":"дизайн логотипу"
+    },
+
+    "cr-night":{
+      "header":"Етикетки для вина Crimean Night",
+      "type":"дизайн логотипу та етикеток"
+    },
+
+    "zic":{
+      "header":"Brand Guide для TM ZIC",
+      "type":"guidebook"
+    }
   }
 }
