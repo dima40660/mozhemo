@@ -1,0 +1,135 @@
+{
+  "navbar": {
+    "portfolio": "PORTFOLIO",
+    "services": "SERVICES",
+    "about-us": "ABOUT US",
+    "contacts": "CONTACTS"
+  },
+  "banner": {
+    "banner-text": "Design project"
+  },
+  "offer-2": {
+    "offer-2-head": "We are a full cycle advertising agency",
+    "offer-2-text": "We provide a range of services for the creation of ongoing management of trademarks, including the own trademarks of trading entities.",
+    "offer2-link": "More"
+  },
+  "offer-3": {
+    "offer3-text": "Studio “Mozhemo!” provides a full range of services from brand creation to its market launch. Having experience working with various industries and brands, in search of solutions to problems, we do not limit ourselves by frames. We value our customers and are always proud to see them them among the leaders, rejoicing in their successes as their own. The company operates on the Ukrainian market more than 10 years, has different specialists to solve issues, and has many projects, which have entered the market and bring success to their owners."
+  },
+  "services": {
+    "services-head": "Services",
+    "services-branding": "Branding services",
+    "services-branding-text": "Turnkey brand development. A brand is a platform on which business success is built.",
+    "services-design": "Service design",
+    "services-design-text": "Brand design is a system of elements that form the visual image of a company or product and differentiate the brand from competitors. It is impossible to overestimate the importance of brand design as part of complex branding",
+    "services-web": "Design of interfaces and WEB",
+    "services-web-text": "Today, almost all brands are present in the digital environment in one way or another",
+    "services-link": "More",
+    "header": "Services",
+    "head": {
+      "devbrand": "Brand development and creation",
+      "devname": "Title development and copyright",
+      "logodesign": "Logo design",
+      "corpidentity": "Corporate style",
+      "brandbook": "BRAND BOOK",
+      "packdesign": "Packaging and label design",
+      "webdesign": "Design of interfaces and WEB",
+      "catalog": "Catalogs and booklets"
+    },
+    "text": {
+      "devbrand": "Branding is the process of creating and positioning a unique image of a company, product or services. The ultimate goal is to create a brand that, with its unique external form and content, meets the consumer's expectations as much as possible, is perceived by the target audience, attracts attention, and arouses the desire to buy. Brand attributes: name, slogan, corporate style of the brand, Brand Book, style in communications, style in the points of presence of the brand (retail).",
+      "devname": "Creating a title and texts is one of the most creative stages of branding development. We understand that there are no small things in this matter, so we take into account all aspects. How will the name look in written language and how will it sound in conversation? Doesn't it have a negative connotation in other languages? How cute is it, or how easy is it to pronounce? During the development of the title, the listed questions and dozens of others are considered. and, finally, another important step is to develop a brand legend. This is a short story about the history, mission and philosophy, written in an accessible language that arouses genuine interest and is easily remembered by the target audience.",
+      "logodesign": "For companies, the logo is the main communicator between the brand and the consumer. The logo is a creative product created on the basis of marketing research and brand positioning. The logo is a tool for the target audience, designed to achieve brand personification and increase the level of brand awareness. A logo can influence the image of a product or service and increase sales.",
+      "corpidentity": "Corporate style is the visual matrix of the brand. To create an effective corporate style of the company, marketing, branding and design specialists should be involved. That is why the creator of the logo and corporate style should be based on business tasks and marketing goals. The development of a corporate style is the creation of a logo, trademark, corporate design, and communications.",
+      "brandbook": "Brand Book is a kind of brand law, which is a collection of detailed information about the development of a trademark, its mission, legend, positioning, packaging requirements. It is the brand book that helps to correctly use the elements of corporate style. Letterhead, notebooks, advertising posters, booklets, business cards, brochures must be made in a uniform style.",
+      "packdesign": "Packaging or label is the most important element of brand communication with the consumer. This especially applies to product brands. Product brands contact the consumer mainly through the design of packaging or product labels. The creation of a label requires the joint work of specialists in the field of marketing and design. The design should be such that at the first glance of the consumer, positive associations related to the product's advantage (tasty, useful, natural) arise.",
+      "webdesign": "Today, almost all brands are present in the digital environment in one way or another. They have different functions, goals and tasks, therefore digital instrumentation also has significant differences. We approach each project individually. However, there is a clear sequence of actions that must be followed to create a quality product.",
+      "catalog": "To support the brand in sales, printed (or electronic) materials are needed, which will contain the necessary information and the product. Catalogs, booklets and presenters are also an element of corporate style."
+    }
+  },
+  "competence": {
+    "head": "Competence",
+    "text": "“Mozhemo” studio offers a full range of services for the development of commercial, corporate, and financial brands - from the formation of a strategy and creative idea to the design of spaces and the creation of a website.",
+    "grid": {
+      "brand-strategy-dev": "Brand strategy development",
+      "private-lable": "Private lable",
+      "title-dev": "Title development and copyright",
+      "brandbook": "Brandbook",
+      "corp-style-dev": "Development of corporate style",
+      "pack-design": "Packaging design",
+      "promotion-strategy": "Brand promotion strategy",
+      "web-interface-design": "Design of interfaces and WEB"
+    }
+  },
+  "footer": "Mo-Fr",
+  "portfolio": {
+    "header": "Portfolio",
+    "development": "DEVELOPMENT",
+    "magrett": {
+      "header": "Redesign for “Magrett” tea",
+      "type": "logo and packaging design"
+    },
+    "respublika": {
+      "header": "“Respublika” Shopping Center booklet design",
+      "type": "presentation booklet"
+    },
+    "kramar": {
+      "header": "Rebranding for “Kramar” company",
+      "type": "brand renewal"
+    },
+    "monami": {
+      "header": "Logo for “Mon Ami Macarons”",
+      "type": "logo design"
+    },
+    "cr-night": {
+      "header": "“Crimean Night” wine labels",
+      "type": "logo and label design"
+    },
+    "zic": {
+      "header": "Brand Guide for TM ZIC",
+      "type": "guidebook"
+    }
+  },
+  "about-us": {
+  "header": "About us",
+    "block": {
+          "header": "Mozhemo! Mozhemo! studio of effective solutions",
+          "offer-text": "We are a full cycle advertising agency",
+          "text": "Studio “Можемо!” provides a full range of services from brand creation to its market launch. Having experience in working with various industries and brands, we do not limit ourselves in the search for solutions to problems.",
+          "text-right": "We value our customers and are always proud to see them among the leaders, rejoicing in their success as our own. The company has been working on the market of Ukraine for more than 10 years, has various specialists to solve issues, and has many projects that have entered the market and bring success to their owners."
+    },
+    "numbers": {
+          "clients": "clients",
+          "trading": "trade networks",
+          "years": "years of experience"
+    },
+    "stages":{
+          "corp-style-dev": "Development of corporate style",
+          "header": "Stages of creating a new brand",
+          "information": "Preparation of information collection",
+          "pack-design": "Design of packaging, labels. Photo",
+          "promotion-strategy": "Brand promotion strategy",
+          "strategy-dev": "Brand strategy development",
+          "title-dev": "Title development and copyright",
+          "web-design": "Design of interfaces and WEB"
+    }
+  },
+  "contacts": {
+    "header": "Contacts",
+    "contacts": {
+      "header" : "Mozhemo!",
+      "header-second": "studio of effective solutions",
+      "adress": "Ukraine, s. Dnipro"
+    },
+    "form": {
+      "header": "Reach out to us",
+      "header-text-first": "or",
+      "header-text-second": "request a presentation",
+      "name": "Your name",
+      "email": "Your email",
+      "company": "Your company",
+      "message": "Type your message",
+      "submit": "Submit"
+    }
+  }
+}

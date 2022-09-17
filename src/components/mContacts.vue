@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid contacts">
           <div class="container">
-              <h1 class="contacts-head">Контакти</h1>
+              <h1 class="contacts-head">{{$t('contacts.header')}}</h1>
             <div class="contacts-banner">
                 <img src="@/assets/contacts-banner.png" alt="" class="img-fluid">
             </div>
@@ -11,8 +11,8 @@
       <div class="container contacts-grid">
           <div class="row">
               <div class="col">
-                  <h1 class="contacts-header">Mожемо!</h1>
-                  <h1 class="contacts-header-second">студія ефективних рішень</h1>
+                  <h1 class="contacts-header">{{$t('contacts.contacts.header')}}</h1>
+                  <h1 class="contacts-header-second">{{$t('contacts.contacts.header-second')}}</h1>
               </div>
               <div class="col contacts-block">
                   <div class="contacts-vertical-line"></div>
@@ -25,7 +25,7 @@
               <div class="col contacts-block">
                   <div class="contacts-vertical-line"></div>
                   <ul class="list-group">
-                      <li class="list-group-item">Україна, м. Дніпро</li>
+                      <li class="list-group-item">{{$t('contacts.contacts.adress')}}</li>
                       <li class="list-group-item">Email: contact@mozhemo.com.ua</li>
                       <li class="list-group-item">Email: mozhemo.info@gmail.com</li>
                   </ul>
@@ -37,34 +37,34 @@
       <div class="container form">
           <div class="row">
               <div class="col-4">
-                  <h1 class="form-header">Написати нам</h1>
-                  <p class="form-header-text">або</p>
-                  <p class="form-header-text">запросити презентацію</p>
+                  <h1 class="form-header">{{$t('contacts.form.header')}}</h1>
+                  <p class="form-header-text">{{$t('contacts.form.header-text-first')}}</p>
+                  <p class="form-header-text">{{$t('contacts.form.header-text-second')}}</p>
               </div>
               <div class="col">
                   <div class="mb-5">
-                      <label for="contacts-input-name" class="form-label text-white">Ваше ім`я</label>
+                      <label for="contacts-input-name" class="form-label text-white">{{$t('contacts.form.name')}}</label>
                       <input type="text" name="name" id="contacts-input-name" class="form-control form-input">
                   </div>
                   <div class="mb-5">
                       <form class="row g-5">
                           <div class="col-6">
-                              <label for="contacts-input-email" class="form-label text-white">Ваш email</label>
+                              <label for="contacts-input-email" class="form-label text-white">{{$t('contacts.form.email')}}</label>
                               <input type="email" id="contacts-input-email" class="form-control form-input">
                           </div>
                           <div class="col-6">
-                              <label for="contacts-input-company" class="form-label text-white">Ваша компанія</label>
+                              <label for="contacts-input-company" class="form-label text-white">{{$t('contacts.form.company')}}</label>
                               <input type="text" id="contacts-input-company" class="form-control form-input">
                           </div>
                       </form>
                   </div>
                   <div class="mb-5">
-                      <label for="contacts-input-message" class="form-label text-white">Ваше повідомлення</label>
+                      <label for="contacts-input-message" class="form-label text-white">{{$t('contacts.form.message')}}</label>
                       <textarea name="message" id="contacts-input-message" cols="1" rows="4" class="form-control form-input"></textarea>
                   </div>
               </div>
               <div class="container align-self-end text-end mb-5">
-                      <button class="btn btn-submit" type="submit">Надіслати</button>
+                      <button class="btn btn-submit" type="submit">{{$t('contacts.form.submit')}}</button>
                   </div>
           </div>
       </div>

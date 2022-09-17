@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid about-us">
           <div class="container">
-              <h1 class="about-us-head">Про нас</h1>
+              <h1 class="about-us-head">{{$t('about-us.header')}}</h1>
             <div class="about-us-banner">
                 <img src="@/assets/about-us-banner.png" alt="" class="img-fluid">
             </div>
@@ -10,77 +10,66 @@
               <div class="row">
                   <div class="col-lg-6 col-md-12 about-us-block mt-5">
                       <div class="about-us-vertical-line"></div>
-                      <h1 class="about-us-header w-75">Mожемо! студія ефективних  рішень</h1>
-                      <p class="about-us-text mt-5 mb-5" style="color:#bfae71">Ми рекламна агенція повного циклу</p>
-                        <p class="about-us-text w-75">
-                            Студія “Можемо!” надає повний спектр послуг від 
-                            створення бренду до його виходу ринку. 
-                            Маючи досвід роботи з різними галузями та брендами, 
-                            у пошуках вирішення завдань, ми не обмежуємо себе рамками. 
-                        </p>
+                      <h1 class="about-us-header w-75">{{$t('about-us.block.header')}}</h1>
+                      <p class="about-us-text mt-5 mb-5" style="color:#bfae71">{{$t('about-us.block.offer-text')}}</p>
+                        <p class="about-us-text w-75">{{$t('about-us.block.text')}}</p>
                   </div>
                   <div class="col-lg-6 col-md-12 mt-5">
                       <div class="row">
                           <div class="col-4 about-us-block">
                               <div class="about-us-vertical-line"></div>
                               <h1 class="about-us-header-number">12<sup>+</sup></h1>
-                              <p class="about-us-text-number">рокiв досвiду</p>
+                              <p class="about-us-text-number">{{$t('about-us.numbers.years')}}</p>
                           </div>
                           <div class="col-4 about-us-block">
                               <div class="about-us-vertical-line"></div>
                               <h1 class="about-us-header-number">100<sup>+</sup></h1>
-                              <p class="about-us-text-number">клієнтів</p>
+                              <p class="about-us-text-number">{{$t('about-us.numbers.clients')}}</p>
                           </div>
                           <div class="col-4 about-us-block">
                               <div class="about-us-vertical-line"></div>
                               <h1 class="about-us-header-number">4</h1>
-                              <p class="about-us-text-number">торгівельні мережі</p>
+                              <p class="about-us-text-number">{{$t('about-us.numbers.trading')}}</p>
                           </div>
                       </div>
-                      <p class="about-us-text-right">
-                        Ми цінуємо наших клієнтів і завжди горді 
-                        бачити їх у числі лідерів, радіючи їхнім успіхам як своїм.
-                        Компанія працює на ринку України більш 10 років, має різних 
-                        спеціалістів для вирішення питань, та має безліч проектів, 
-                        які вийшли на ринок і приносять успіх своїм володарям.
-                      </p>
+                      <p class="about-us-text-right">{{$t('about-us.block.text-right')}}</p>
                   </div>
               </div>
           </div>
   </div>
   <div class="container-fluid">
       <div class="container">
-          <h1 class="about-us-header mt-5">Етапи створення нового бренду</h1>
+          <h1 class="about-us-header mt-5">{{$t('about-us.stages.header')}}</h1>
       </div>
       <div class="container text-center about-us-create">
           <div class="row">
           <div class="col align-self-start about-us-col-top">
               <img src="@/assets/aus1.png" alt="">
-              <p class="about-us-create-text-top">Підготовка збір інформації</p>
+              <p class="about-us-create-text-top">{{$t('about-us.stages.information')}}</p>
           </div>
           <div class="col align-self-end about-us-col-bottom">
               <img src="@/assets/aus2.png" alt="">
-              <p class="about-us-create-text-bottom">Розробка стратегії бренду</p>
+              <p class="about-us-create-text-bottom">{{$t('about-us.stages.strategy-dev')}}</p>
           </div>
           <div class="col align-self-start about-us-col-top">
               <img src="@/assets/aus3.png" alt="">
-              <p class="about-us-create-text-top">Розробка назви копірайт</p>
+              <p class="about-us-create-text-top">{{$t('about-us.stages.title-dev')}}</p>
           </div>
           <div class="col align-self-end about-us-col-bottom">
               <img src="@/assets/aus4.png" alt="">
-              <p class="about-us-create-text-bottom">Розробка фірмового стилю</p>
+              <p class="about-us-create-text-bottom">{{$t('about-us.stages.corp-style-dev')}}</p>
           </div>
           <div class="col align-self-start about-us-col-top">
               <img src="@/assets/aus5.png" alt="">
-              <p class="about-us-create-text-top">Дизайн упаковки етикетки. Фото</p>
+              <p class="about-us-create-text-top">{{$t('about-us.stages.pack-design')}}</p>
           </div>
           <div class="col align-self-end about-us-col-bottom">
               <img src="@/assets/aus6.png" alt="">
-              <p class="about-us-create-text-bottom">Стратегія просування бренду</p>
+              <p class="about-us-create-text-bottom">{{$t('about-us.stages.promotion-strategy')}}</p>
           </div>
           <div class="col align-self-start about-us-col-top">
               <img src="@/assets/aus7.png" alt="">
-              <p class="about-us-create-text-top">Дизайн  інтерфейсів та WEB</p>
+              <p class="about-us-create-text-top">{{$t('about-us.stages.web-design')}}</p>
           </div>
       </div>
       </div>

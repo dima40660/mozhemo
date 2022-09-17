@@ -1,6 +1,6 @@
 <template>
     <div class="container pos">
-            <h1 class="pos-head">{{ $t('services-page.header')}}</h1>
+            <h1 class="pos-head">{{ $t('services.header')}}</h1>
         </div>
     <mServicesTextBlock />
 </template>

@@ -12,7 +12,7 @@
                             <h6 class="footer-text3">9:00 - 19:00  {{$t('footer')}}</h6>
                         </div>
                         <div class="col-xl-4 col-md-12 align-self-end">
-                            <h6 class="footer-text2"><a class="footer-link" href="mailto:info@mozhem.com.ua">info@mozhem.com.ua</a></h6>
+                            <h6 class="footer-text2"><a class="footer-link" href="mailto:info@mozhem.com.ua">contact@mozhem.com.ua</a></h6>
                         </div>
                     </div>
                 </div>
