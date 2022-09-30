@@ -1,7 +1,7 @@
 <template>
 <div class="banner">
             <div class="banner-overlay"></div>
-            <p class="overlay-text">{{ $t('banner.banner-text')}}</p>
+            <p class="overlay-text" >{{ $t('banner.banner-text')}}</p>
             <p class="overlay-text-second"><sup>тм</sup> Crimean Night</p>
 </div>
         <mOffer2 />
