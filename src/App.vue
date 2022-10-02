@@ -3,7 +3,7 @@
             <div class="container-fluid">
                 <mLocaleSwitcher />
                 <router-link to="/" class="navbar-brand">
-                    <img src="@/assets/logo.png" alt="" srcset="">
+                    <img :src="imgSwitch[$i18n.locale]" alt="" srcset="">
                 </router-link>    
                 <ul class="nav menu">
                   <router-link to="/portfolio" class="nav-link menu-links">{{ $t('navbar.portfolio')}}</router-link>
@@ -22,18 +22,25 @@
 </template>
 
 <script>
-import mMain from './components/mMain.vue'
 import mFooter from './components/mFooter.vue'
-import mPortfolio from './components/mProduct.vue'
 import mLocaleSwitcher from './components/mLocaleSwitcher.vue'
+import logoUa from  '@/assets/logo.png'
+import logoEn from '@/assets/logo-eng.png'
+
 
 export default {
   name: 'App',
   components : {
     mLocaleSwitcher,
-    mMain,
-    mPortfolio,
     mFooter
+  },
+  data () {
+    return {
+      imgSwitch: {
+        ua: logoUa,
+        en: logoEn
+      }
+    }
   }
 }
 </script>

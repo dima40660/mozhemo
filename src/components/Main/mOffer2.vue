@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid offer-2">
-                <img src="@/assets/logo2.png" alt="" class="offer2-logo">
+                <img :src="bbSwitch[$i18n.locale]" alt="" class="offer2-logo">
                 <h1 class="offer2-head">{{$t('offer-2.offer-2-head')}}</h1>
                 <p class="offer2-text">{{$t('offer-2.offer-2-text')}}</p>
                 <router-link to="/about-us" class="offer2-link">{{$t('offer-2.offer2-link')}}</router-link>
@@ -8,8 +8,19 @@
 </template>
 
 <script>
+import bbLogoUa from '@/assets/bb-logo.png'
+import bbLogoEn from '@/assets/bb-logo-eng.png'
+
 export default {
-    name: 'mOffer2'
+    name: 'mOffer2',
+    data () {
+        return {
+            bbSwitch: {
+                ua: bbLogoUa,
+                en: bbLogoEn
+            }
+        }
+    } 
 }
 </script>
 
