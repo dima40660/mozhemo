@@ -131,5 +131,16 @@
       "message": "Type your message",
       "submit": "Submit"
     }
+  },
+  "product": {
+      "head" : "Redesign for Magrett tea",
+      "text-head" : "MAGRETT TEA FROM THE JFK COMPANY.",
+      "text" : {
+        "left" : "These are high-quality leaf teas from India and Sri Lanka. Therefore, there was a need to create a brighter and modern design that would correspond to the quality of the product. A redesign of the logo and packaging, city lights, and also reinforced with printed products were carried out.",
+        "right" : {
+            "first" : "The design was intended to convey belonging to the English aristocratic society to the buyer who chose Magrett tea.",
+            "second" : "At the same time, convey the feeling of warmth and coziness from a warm blanket in the cold and damp autumn. The pleasure of tea in the morning or in the evening."
+                  }
+              }
   }
 }

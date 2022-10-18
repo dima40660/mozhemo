@@ -15,7 +15,7 @@
 export default {
     data(){
         return{
-            locale: 'ua'
+            locale: process.env.VUE_APP_I18N_LOCALE         
         }
     },
     name: 'mLocaleSwitcher',
@@ -28,6 +28,7 @@ export default {
         return this.locale == l
       }
   }
+  
 }
 </script>
 
