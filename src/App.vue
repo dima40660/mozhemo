@@ -37,11 +37,17 @@ export default {
   data () {
     return {
       imgSwitch: {
-        ua: logoUa,
-        en: logoEn
+        UA: logoUa,
+        EN: logoEn
       }
     }
-  }
+  },
+  actions: {
+   changeLanguage (context, payload) {
+     context.commit('changeLanguage')
+     payload.i18n.locale = payload.lang
+   }
+}
 }
 </script>
 

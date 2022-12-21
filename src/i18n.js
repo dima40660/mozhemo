@@ -23,8 +23,8 @@ function loadLocaleMessages() {
 
 export default createI18n({
   legacy: false,
-  locale: process.env.VUE_APP_I18N_LOCALE || 'ua',
-  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',
+  locale: (localStorage.getItem('lang') || 'UA'),
+  //locale: process.env.VUE_APP_I18N_LOCALE || 'UA',
+  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'EN',
   messages: loadLocaleMessages()
 })
-
