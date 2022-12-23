@@ -5,18 +5,18 @@ jobs:
   connect-ssh:
     runs-on: ubuntu-latest
     steps:
-      - name: Read deploy.sh
-        id: deploy
+      - name: Read deployment.sh
+        id: deployment
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./deploy.sh
+          path: ./deployment.sh
       - name: Create SSH key + run
         run: |
           mkdir -p ~/.ssh/
           echo "$SSH_PRIVATE_KEY" > ../private.key
           sudo chmod 600 ../private.key
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          cat ${{ steps.deploy.outputs.content }} | ssh -i $SSH_KEY_PATH app@$SSH_KNOWN_HOSTS
+          cat ${{ steps.deployment.outputs.content }} | ssh -i $SSH_KEY_PATH app@$SSH_KNOWN_HOSTS
         shell: bash
         env:
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
