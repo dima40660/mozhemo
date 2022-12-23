@@ -7,7 +7,9 @@ jobs:
     steps:
       - name: Read deployment.sh
         id: deployment
-        uses: juliangruber/read-file-action@v1
+        uses:
+          juliangruber/read-file-action@v1
+          actions/checkout@v2
         with:
           path: "deployment.sh"
       - name: Create SSH key + run
