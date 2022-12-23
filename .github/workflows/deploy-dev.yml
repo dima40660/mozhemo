@@ -14,15 +14,20 @@ jobs:
         uses: juliangruber/read-file-action@v1
         with:
           path: "deployment.sh"
-      - name: Create SSH key + run
+      - name: Create SSH key
         run: |
           mkdir -p ~/.ssh/
           echo "$SSH_PRIVATE_KEY" > ../private.key
           sudo chmod 600 ../private.key
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          cat ${{ steps.deployment.outputs.content }} | ssh -i $SSH_KEY_PATH app@$SSH_KNOWN_HOSTS
         shell: bash
         env:
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
           SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
           SSH_KEY_PATH: ${{ github.workspace }}/../private.key
+      - name: executing remote ssh commands
+        uses: appleboy/ssh-action@v0.1.6
+        with:
+          host: ${{ secrets.SSH_KNOWN_HOSTS }}
+          username: app
+          script: ${{ steps.deployment.outputs.content }}
