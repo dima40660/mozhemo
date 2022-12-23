@@ -9,7 +9,7 @@ jobs:
         id: deployment
         uses: juliangruber/read-file-action@v1
         with:
-          path: ./deployment.sh
+          path: "deployment.sh"
       - name: Create SSH key + run
         run: |
           mkdir -p ~/.ssh/
