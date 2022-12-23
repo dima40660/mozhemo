@@ -7,8 +7,8 @@
           <option class="language" value="EN">EN</option>
         </select>
       </div-->
-      <a href="#" class="lang-btn" :class="{active: ActiveLocale('UA') }" @click="setLocale('UA')">UA</a>
-      <a href="#" class="lang-btn" :class="{active: ActiveLocale('EN') }" @click="setLocale('EN')">EN</a>
+      <a href="#" class="lang-btn" :class="{active: ActiveLocale('ua') }" @click="setLocale('ua')">UA</a>
+      <a href="#" class="lang-btn" :class="{active: ActiveLocale('en') }" @click="setLocale('en')">EN</a>
     </ul>
 </div>
 </template>
@@ -18,7 +18,7 @@
     name: 'mLocaleSwitcher',
     data() {
       return { 
-        langs: ['UA', 'EN']
+        langs: ['ua', 'en']
       }
     },
     methods: {

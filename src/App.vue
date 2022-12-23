@@ -37,8 +37,8 @@ export default {
   data () {
     return {
       imgSwitch: {
-        UA: logoUa,
-        EN: logoEn
+        ua: logoUa,
+        en: logoEn
       }
     }
   },
