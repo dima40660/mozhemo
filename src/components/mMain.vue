@@ -1,8 +1,9 @@
 <template>
-<div class="banner">
-            <div class="banner-overlay"></div>
-            <p class="overlay-text" >{{ $t('banner.banner-text')}}</p>
-            <p class="overlay-text-second"><sup>тм</sup> Crimean Night</p>
+<div class="head-banner text-end">
+<img class="overlay" src="@/assets/banner-overlay-test.png" alt="">
+</div>
+<div class="inner-text">
+    <p>{{ $t('banner.banner-text')}} <sup>тм</sup> Crimean Night</p>
 </div>
         <mOffer2 />
         <mOffer3 />
@@ -32,24 +33,49 @@ export default{
 
 <style>
 /*banner*/
+.head-banner{
+    background-image:url("@/assets/banner.png");
+    width: auto;
+    max-width: auto;
+    height:auto;
+    background-position: left;
+}
+  
+.overlay{
+    width: 70%;
+    height:auto;
+    opacity: 95%;
+    position:relative;
+    background-position:top;
+    z-index: 2;
+}
+.inner-text{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-size: 3vw;
+    top: 8%;
+    left: 70%;
+    z-index: 3;
+}
 .banner{
     max-width: 100%;
-    height: 759px;
+    height: auto;
     background-image:url("@/assets/banner.png");
     position: relative;
 }
 .banner-overlay{
-    max-width: 100%;
+    max-width:105% !important;
     height: 759px;
     background-image: url("@/assets/banner-overlay-test.png");
     opacity: 95%;
-    position: relative;
+    position:relative;
     background-repeat: no-repeat;
     background-position: center;
-    background-clip: padding-box;
+    background-clip: 0;
     left: 22%;
 }
-.overlay-text{
+.overlay-text-123{
     position: absolute;
     top: 80%;
     left: 80%;
