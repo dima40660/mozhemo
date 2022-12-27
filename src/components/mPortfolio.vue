@@ -1,66 +1,133 @@
 <template>
-  <div class="container pos">
-                <h1 class="pos-head">{{ $t('portfolio.header')}}</h1>
-            </div>
-            <div class="container mt-5 mb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-md-12">
-                        <router-link to="/portfolio/product"><img src="@/assets/magred.png" alt=""></router-link>
-                        <div class="container portfolio-block-2">
-                            <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head">{{ $t('portfolio.magrett.header')}}</h3>
-                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
-                            <p class="port-text mb-5">{{ $t('portfolio.magrett.type')}}</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-12">
-                        <img src="@/assets/katalog1.png" alt="">
-                        <div class="container portfolio-block-2">
-                            <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head">{{ $t('portfolio.respublika.header')}}</h3>
-                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
-                            <p class="port-text mb-5">{{ $t('portfolio.respublika.type')}}</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-12">
-                        <img src="@/assets/kramar.png" alt="">
-                        <div class="container portfolio-block-2">
-                            <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head">{{ $t('portfolio.kramar.header')}}</h3>
-                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
-                            <p class="port-text mb-5">{{ $t('portfolio.kramar.type')}}</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-12">
-                        <img src="@/assets/monami.png" alt="">
-                        <div class="container portfolio-block-2">
-                            <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head">{{ $t('portfolio.monami.header')}}</h3>
-                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
-                            <p class="port-text mb-5">{{ $t('portfolio.monami.type')}}</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-12">
-                        <img src="@/assets/pack.png" alt="">
-                        <div class="container portfolio-block-2">
-                            <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head">{{ $t('portfolio.cr-night.header')}}</h3>
-                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
-                            <p class="port-text mb-5">{{ $t('portfolio.cr-night.type')}}</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-12">
-                        <img src="@/assets/brand3.png" alt="">
-                        <div class="container portfolio-block-2">
-                            <div class="portfolio-vertical-line"></div>
-                            <h3 class="port-head w-50">{{ $t('portfolio.zic.header')}}</h3>
-                            <h6 class="port-text mt-3">{{ $t('portfolio.development')}}</h6>
-                            <p class="port-text mb-5">{{ $t('portfolio.zic.type')}}</p>
+    <div class="container pos">
+        <h1 class="pos-head">{{ $t('portfolio.header')}}</h1>
+    </div>
+  <div class="">
+    <div class="container px-3 portfolio">
+        <div class="row gap-2">
+            <div class="col mb-5">
+                <div class="card-body">
+                    <router-link to="/portfolio/product"><img src="@/assets/magred.png" alt=""></router-link>
+                    <div class="container-fluid m-0 p-0">
+                        <div class="vr">
+                            <div class="container card-content">
+                                <h3 class="card-header">
+                                    {{ $t('portfolio.magrett.header')}}
+                                </h3>
+                                <h3 class="card-secondary-header">
+                                    {{ $t('portfolio.development')}}
+                                </h3>
+                                <p class="card-text">
+                                    {{ $t('portfolio.magrett.type')}}
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <router-view />
+            <div class="col mb-5">
+                <div class="card-body">
+                    <img src="@/assets/katalog1.png" alt="">
+                    <div class="container-fluid m-0 p-0">
+                        <div class="vr">
+                            <div class="container card-content">
+                                <h3 class="card-header">
+                                    {{ $t('portfolio.respublika.header')}}
+                                </h3>
+                                <h3 class="card-secondary-header">
+                                    {{ $t('portfolio.development')}}
+                                </h3>
+                                <p class="card-text">
+                                    {{ $t('portfolio.respublika.type')}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card-body">
+                    <img src="@/assets/kramar.png" alt="">
+                    <div class="container-fluid m-0 p-0">
+                        <div class="vr">
+                            <div class="container card-content">
+                                <h3 class="card-header">
+                                    {{ $t('portfolio.kramar.header')}}
+                                </h3>
+                                <h3 class="card-secondary-header">
+                                    {{ $t('portfolio.development')}}
+                                </h3>
+                                <p class="card-text">
+                                    {{ $t('portfolio.kramar.type')}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card-body">
+                    <img src="@/assets/monami.png" alt="">
+                    <div class="container-fluid m-0 p-0">
+                        <div class="vr">
+                            <div class="container card-content">
+                                <h3 class="card-header">
+                                    {{ $t('portfolio.monami.header')}}
+                                </h3>
+                                <h3 class="card-secondary-header">
+                                    {{ $t('portfolio.development')}}
+                                </h3>
+                                <p class="card-text">
+                                    {{ $t('portfolio.monami.type')}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card-body">
+                    <img src="@/assets/pack.png" alt="">
+                    <div class="container-fluid m-0 p-0">
+                        <div class="vr">
+                            <div class="container card-content">
+                                <h3 class="card-header">
+                                    {{ $t('portfolio.cr-night.header')}}
+                                </h3>
+                                <h3 class="card-secondary-header">
+                                    {{ $t('portfolio.development')}}
+                                </h3>
+                                <p class="card-text">
+                                    {{ $t('portfolio.magrett.type')}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card-body">
+                    <img src="@/assets/brand3.png" alt="">
+                    <div class="container-fluid m-0 p-0">
+                        <div class="vr">
+                            <div class="container card-content">
+                                <h3 class="card-header">
+                                    {{ $t('portfolio.zic.header')}}
+                                </h3>
+                                <h3 class="card-secondary-header">
+                                    {{ $t('portfolio.development')}}
+                                </h3>
+                                <p class="card-text">
+                                    {{ $t('portfolio.zic.type')}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -69,9 +136,13 @@ export default {
 }
 </script>
 
-<style>
-.pos{
-    margin-top: 3rem;
+<style scoped>
+.card-body, .col{
+    width: 391px !important;
+}
+.portfolio{
+    margin-top: 15px;
+    padding-left: 48px;
 }
 .pos-head{
     font-weight: 600;
@@ -87,15 +158,26 @@ export default {
     position: absolute;
     left: 0;
 }
-.port-head{
-    margin-left: 1rem;
-    margin-top: 1rem;
+.card-header{
+    margin-top: 0.5rem;
     font-weight: 700;
-    max-width: 80%;
     color: #36b6cd;
 }
-.port-text{
+.card-content{
+    width: 21rem !important;
+    height: 9rem;
     margin-left: 1rem;
+}
+.card-secondary-header{
     max-width: 80%;
+    margin-top: 1rem;
+    font-size: 1em;
+}
+.vr{
+    width: 3px;
+    opacity: 100%;
+    padding: 0;
+    margin: 1rem 0rem 0rem 0rem;
+    background-color: #36b6cd;
 }
 </style>

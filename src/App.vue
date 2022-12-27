@@ -5,16 +5,17 @@
                 <router-link to="/" class="navbar-brand">
                     <img :src="imgSwitch[$i18n.locale]" alt="" srcset="">
                 </router-link>    
-                <ul class="nav menu">
-                  <router-link to="/portfolio" class="nav-link menu-links">{{ $t('navbar.portfolio')}}</router-link>
-                  <router-link to="/services" class="nav-link menu-links">{{ $t('navbar.services')}}</router-link>
-                  <router-link to="/about-us" class="nav-link menu-links">{{ $t('navbar.about-us')}}</router-link>
-                  <router-link to="/contacts" class="nav-link menu-links">{{ $t('navbar.contacts')}}</router-link>
-                </ul>
-                <ul class="nav numbers">
-                        <p class="number">+380 67 37 90 996</p>
-                        <p class="number">+380 67 999 18 87</p>
-                </ul>
+                  <ul class="nav menu">
+                    <router-link to="/portfolio" class="nav-link menu-links">{{ $t('navbar.portfolio')}}</router-link>
+                    <router-link to="/services" class="nav-link menu-links">{{ $t('navbar.services')}}</router-link>
+                    <router-link to="/about-us" class="nav-link menu-links">{{ $t('navbar.about-us')}}</router-link>
+                    <router-link to="/contacts" class="nav-link menu-links">{{ $t('navbar.contacts')}}</router-link>
+                  </ul>
+                  <ul class="nav numbers">
+                          <p class="number">+380 67 37 90 996</p>
+                          <p class="number">+380 67 999 18 87</p>
+                  </ul>
+                  <mOffcanvasMenu/>
             </div>
         </nav>
         <router-view/>
@@ -26,13 +27,15 @@ import mFooter from './components/mFooter.vue'
 import mLocaleSwitcher from './components/mLocaleSwitcher.vue'
 import logoUa from  '@/assets/logo.png'
 import logoEn from '@/assets/logo-eng.png'
+import mOffcanvasMenu from './components/mOffcanvasMenu.vue'
 
 
 export default {
   name: 'App',
   components : {
     mLocaleSwitcher,
-    mFooter
+    mFooter,
+    mOffcanvasMenu
   },
   data () {
     return {
@@ -52,7 +55,7 @@ export default {
 </script>
 
 <style>
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 #app {
     font-family: 'Comfortaa', cursive;
     font-family: 'Nunito', sans-serif;
@@ -64,6 +67,28 @@ export default {
     margin: auto;
 }
 
+@media screen and (max-width: 1200px) {
+  .menu, .numbers{
+    display: none;
+    visibility: hidden;
+  }
+  .expand-menu{
+    visibility: visible;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .menu, .numbers{
+    visibility: visible;
+  }
+  .expand-menu{
+    display: none;
+    visibility: hidden;
+  }
+}
+.expand-menu{
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
 /*scroll bar*/
 /* width */
 ::-webkit-scrollbar {
