@@ -7,7 +7,7 @@
         <div class="row gap-2">
             <div class="col mb-5">
                 <div class="card-body">
-                    <router-link to="/portfolio/product"><img src="@/assets/magred.png" alt=""></router-link>
+                    <router-link to="/portfolio/product"><img class="img-fluid" src="@/assets/magred.png" alt=""></router-link>
                     <div class="container-fluid m-0 p-0">
                         <div class="vr">
                             <div class="container card-content">
@@ -27,7 +27,7 @@
             </div>
             <div class="col mb-5">
                 <div class="card-body">
-                    <img src="@/assets/katalog1.png" alt="">
+                    <img class="img-fluid" src="@/assets/katalog1.png" alt="">
                     <div class="container-fluid m-0 p-0">
                         <div class="vr">
                             <div class="container card-content">
@@ -47,7 +47,7 @@
             </div>
             <div class="col mb-5">
                 <div class="card-body">
-                    <img src="@/assets/kramar.png" alt="">
+                    <img class="img-fluid" src="@/assets/kramar.png" alt="">
                     <div class="container-fluid m-0 p-0">
                         <div class="vr">
                             <div class="container card-content">
@@ -67,7 +67,7 @@
             </div>
             <div class="col mb-5">
                 <div class="card-body">
-                    <img src="@/assets/monami.png" alt="">
+                    <img class="img-fluid" src="@/assets/monami.png" alt="">
                     <div class="container-fluid m-0 p-0">
                         <div class="vr">
                             <div class="container card-content">
@@ -87,7 +87,7 @@
             </div>
             <div class="col mb-5">
                 <div class="card-body">
-                    <img src="@/assets/pack.png" alt="">
+                    <img class="img-fluid" src="@/assets/pack.png" alt="">
                     <div class="container-fluid m-0 p-0">
                         <div class="vr">
                             <div class="container card-content">
@@ -107,7 +107,7 @@
             </div>
             <div class="col mb-5">
                 <div class="card-body">
-                    <img src="@/assets/brand3.png" alt="">
+                    <img class="img-fluid" src="@/assets/brand3.png" alt="">
                     <div class="container-fluid m-0 p-0">
                         <div class="vr">
                             <div class="container card-content">
@@ -162,6 +162,10 @@ export default {
     max-width: 80%;
     margin-top: 1rem;
     font-size: 1em;
+}
+img{
+    width: auto;
+    height: auto;
 }
 .vr{
     width: 3px;
