@@ -6,20 +6,30 @@
             <img src="@/assets/product.png" alt="" class="img-fluid product-img">
         </div>
     <div class="container mt-5">
-                <div class="row product-block-div m-0">
-                    <div class="col-xl-6 col-md-12 product-block">
-                        <div class="vertical-line"></div>
-                        <h1 class="product-head">{{$t('product.head')}}</h1>
-                        <h4 class="product-text">{{$t('product.text-head')}}</h4>
-                        <p class="product-text mt-5">{{$t('product.text.left')}}</p>
-                    </div>
-                    <div class="col-xl-6 col-md-12 product-block">
-                        <div class="vertical-line-2"></div>
-                        <p class="product-text-right">{{$t('product.text.right.first')}}</p>
-                        <p class="product-text-right">{{$t('product.text.right.second')}}</p>
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                    <div class="vr">
+                        <div class="card-body">
+                            <div class="container product-content mx-3 my-3">
+                                <h1 class="content-header">{{$t('product.head')}}</h1>
+                                <h4 class="py-3 w-75">{{$t('product.text-head')}}</h4>
+                                <p class="content-text">{{$t('product.text.left')}}</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="vr">
+                    <div class="card-body mt-md-0">
+                        <div class="container product-content mx-3 py-5">
+                            <p class="py-0">{{$t('product.text.right.first')}}</p>
+                            <p class="py-4">{{$t('product.text.right.second')}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
             <div class="container">
                         <div class="row row-cols-2 justify-content-center mt-5">
                             <div class="col-md-12 col-xl-6 mb-5">
@@ -49,6 +59,20 @@ export default {
 .product{
     margin-top: 3rem;
 }
+.card-body{
+    height: 18rem !important;
+    width: 80% !important;
+}
+.product-content{
+    position: relative;
+    width: 30rem !important;
+    height: auto !important;
+}
+.content-header{
+    font-weight: 700;
+    font-size: 2em;
+    color: #36b6cd;   
+}
 .product-header{
     font-weight: 600;
     color: #36b6cd;
@@ -60,35 +84,16 @@ export default {
     color: #36b6cd;
     margin-bottom: 1rem;
 }
-.product-block-div{
-    margin-left: 0.5%;
+.content-text{
+    width: 95%;
 }
-.vertical-line{
-    height: 100%;
+.vr{
     width: 2px;
+    opacity: 100%;
+    padding: 0;
+    height: auto;
+    margin: 0rem 0rem 0rem 0rem;
     background-color: #36b6cd;
-    position: absolute;
-    left: 0;
-}
-.vertical-line-2{
-    height: 100%;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 2%;
-}
-.product-block{
-    position: relative;
-}
-.product-text{
-    margin-left: 2%;
-    margin-top: 2rem;
-    max-width: 80%;
-}
-.product-text-right{
-    margin-left: 3%;
-    margin-top: 2rem;
-    max-width: 80%;
 }
 .product-img{
     position: relative;
@@ -97,5 +102,7 @@ export default {
 .product-grid-img{
     position: relative;
     max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 </style>

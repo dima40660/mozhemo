@@ -148,16 +148,6 @@ export default {
     font-weight: 600;
     color: #36b6cd;
 }
-.portfolio-block-2{
-    position: relative;
-}
-.portfolio-vertical-line{
-    height: 100%;
-    width: 2px;
-    background-color: #36b6cd;
-    position: absolute;
-    left: 0;
-}
 .card-header{
     margin-top: 0.5rem;
     font-weight: 700;
