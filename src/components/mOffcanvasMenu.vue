@@ -34,6 +34,7 @@ export default {
 <style scoped>
 .nav{
     padding-top: 3.7em;
+    max-width: 7rem;
 }
 .btn-menu,.btn-menu:active, .btn-menu:visited{
     border-radius: 50px;
@@ -59,7 +60,7 @@ export default {
   }
   .offcanvas{
     background-color: #313e53;
-    width: 20% !important;
+    width:max-content !important;
   }
   .number{
     font-size: 13px;
