@@ -6,11 +6,16 @@ WORKDIR /vue-ui
 COPY package*.json ./
 RUN npm install
 
+ARG robots
+ENV ROBOTS_META $robots
+
 # Copy rest of the files
 COPY . .
 
 # Build the project
 RUN npm run build
+
+
 
 
 FROM nginx:alpine as production-build
