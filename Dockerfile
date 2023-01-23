@@ -7,7 +7,7 @@ COPY package*.json ./
 RUN npm install
 
 ARG robots
-ENV ROBOTS_META $robots
+ENV VUE_APP_ROBOTS_META $robots
 
 # Copy rest of the files
 COPY . .
@@ -19,6 +19,7 @@ RUN npm run build
 
 
 FROM nginx:alpine as production-build
+
 COPY ./.nginx/nginx.conf /etc/nginx/nginx.conf
 
 ## Remove default nginx index page
