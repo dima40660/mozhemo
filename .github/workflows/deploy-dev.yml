@@ -1,6 +1,9 @@
 name: deploy-dev
 run-name: Deploy dev
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   connect-ssh:
     runs-on: ubuntu-latest
