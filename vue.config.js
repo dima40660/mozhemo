@@ -9,7 +9,6 @@ module.exports = defineConfig({
       localeDir: 'locales',
       enableLegacy: false,
       runtimeOnly: false,
-      compositionOnly: false,
       fullInstall: true
     }
   }

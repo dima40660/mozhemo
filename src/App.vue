@@ -54,6 +54,17 @@ export default {
 }
 </script>
 
+<i18n>
+{
+  "en": {
+    "language": "Language"
+  },
+  "ua": {
+    "language": "Мова"
+  }
+}
+</i18n>
+
 <style>
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 #app {
